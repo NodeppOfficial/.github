@@ -1,4 +1,4 @@
-# the NodePP-Project: Revolutionizing the World of Programming
+# the Nodepp Project: Revolutionizing the World of Programming
 
 Welcome to the exciting realm of the Nodepp-Project, where innovation meets simplicity, and coding becomes an exhilarating adventure! In this ever-evolving digital landscape, programming has become the backbone of technological advancements. And now, with the Nodepp-Project, we are set to redefine the way developers approach their craft.
 
