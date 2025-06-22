@@ -1,4 +1,4 @@
-# the Nodepp Project: Revolutionizing the World of Programming
+# The Nodepp Project: Revolutionizing the World of Programming
 
 Welcome to the exciting realm of the Nodepp-Project, where innovation meets simplicity, and coding becomes an exhilarating adventure! In this ever-evolving digital landscape, programming has become the backbone of technological advancements. And now, with the Nodepp-Project, we are set to redefine the way developers approach their craft.
 
@@ -8,10 +8,23 @@ At the heart of the Nodepp-Project lies our commitment to streamlining the devel
 
 With its lightweight architecture and extensive library of modules, the Nodepp-Project empowers developers to build scalable web applications, network servers, and real-time applications effortlessly. Harness the power of event-driven programming, asynchronous I/O, and modular design, and witness your projects soar to new heights.
 
-<!--
-But the Nodepp-Project isn't just about functionality; it's also about community. We believe in fostering a vibrant and inclusive developer community, where knowledge-sharing and collaboration thrive. Join a network of passionate programmers, share your ideas, and contribute to the growth of the Nodepp-Project ecosystem.
--->
-
 So, whether you're a front-end wizard, a back-end guru, or an aspiring developer with a dream, the Nodepp-Project is here to transform your coding experience. Embrace the future of programming, unlock your full potential, and embark on an exciting journey with the Nodepp-Project. 
 
 Get ready to code like never before! 🫠
+
+# Contribution
+
+If you want to contribute to Nodepp, you are welcome to do so! You can contribute in several ways:
+
+    ☕ Buying me a Coffee
+    📢 Reporting bugs and issues
+    📝 Improving the documentation
+    📌 Adding new features or improving existing ones
+    🧪 Writing tests and ensuring compatibility with different platforms
+    🔍 Before submitting a pull request, make sure to read the contribution guidelines.
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/edbc_repo)
+
+# License
+Nodepp is distributed under the MIT License. See the LICENSE file for more details.
