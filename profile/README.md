@@ -6,7 +6,7 @@ Welcome to the exciting realm of Nodepp, where we bridge the gap between the raw
 
 ## Our Mission
 
-The Nodepp Project isn't just another set of libraries; it’s a groundbreaking paradigm shift. We are dedicated to empowering developers from frontend wizards to back-end gurus to create robust, scalable, and efficient applications with unparalleled ease. Don't trust us? just take a look at our `hello-world http server` looks like:
+The Nodepp Project isn't just another set of libraries; it’s a groundbreaking paradigm shift. We are dedicated to empowering developers from frontend wizards to backend gurus to create robust, scalable, and efficient applications with unparalleled ease. Don't trust us? just take a look at our `hello-world` http server:
 
 ```cpp
 #include <nodepp/nodepp.h>
