@@ -1,12 +1,21 @@
-# The Nodepp Project: Revolutionizing the World of Programming
+# The Nodepp Project: A Unified Asynchronous World for C++
 
-### Redefining the World of Programming: Innovation Meets Simplicity.
+### Bridging the Gap Between C++ Performance and Node.js Simplicity.
 
-Welcome to the exciting realm of Nodepp, where we bridge the gap between the raw power of C++ and the exhilarating simplicity of Node.js. In an ever-evolving digital landscape, we believe programming should be a high-speed adventure, not a struggle with convoluted syntax.
+Nodepp is a unified C++ framework designed to simplify high-performance asynchronous programming. By combining an **Event-Driven Reactor** with an **EE-inspired memory model**, Nodepp allows you to write C++ using a familiar, non-blocking syntax that scales from 8-bit microcontrollers to multi-core cloud servers.
 
-## Our Mission
+We believe that programming should be a high-speed adventure, not a struggle with fragmented libraries or convoluted syntax.
 
-The Nodepp Project isn't just another set of libraries; it’s a groundbreaking paradigm shift. We are dedicated to empowering developers from frontend wizards to backend gurus to create robust, scalable, and efficient applications with unparalleled ease. Don't trust us? just take a look at our `hello-world` http server:
+## The Nodepp Philosophy: "Write Once, Compile Everywhere"
+
+Unlike traditional C++ development that relies on **gluing** independent libraries together, Nodepp is **Vertically Integrated**. This **Unified World** architecture ensures that every module — from JSON parsers to HTTP servers — shares the same DNA:
+
+- **100% Asynchronous:** Native I/O Multiplexing (Epoll, IOCP, Kqueue) for massive concurrency.
+- **Mechanical Sympathy:** Memory primitives designed for cache efficiency and zero-copy data propagation.
+- **Hardware Agnostic:** The exact same code runs on an Arduino Nano, WebAssembly, or Linux/Windows.
+
+## Hello World: High-Performance HTTP
+Nodepp abstracts the complexity of socket management, headers, and timing into a clean, intuitive API.
 
 ```cpp
 #include <nodepp/nodepp.h>
@@ -19,7 +28,7 @@ void onMain(){
 
     auto server = http::server([=]( http_t cli ){ 
 
-        console::log( cli.path, cli.get_fd() );
+        console::log( "request: ", cli.path );
         
         cli.write_header( 200, header_t({
             { "content-type", "text/html" }
@@ -36,53 +45,45 @@ void onMain(){
 }
 ```
 
-At the heart of our project lies a commitment to streamlining the development process. We meticulously design our ecosystem to be intuitive, efficient, and beginner-friendly, while maintaining the extreme performance that only C++ can provide.
+## Proof of Concept: Multi-Platform Execution
 
-- **100% Asynchronous:** Harness the power of event-driven programming and non-blocking I/O.
-- **Modular by Design:** A lightweight architecture with an extensive library of modules for Web, IoT, and Desktop.
-- **Zero-Copy Logic:** Sophisticated memory management that works on everything from an Arduino Nano to a Cloud Server.
-
-## Nodepp in Action
 ### Asynchronous Enigma Machine
+Proving that 8-bit **bare metal** hardware can handle complex cryptographic rotations without blocking the system.
+
 https://github.com/user-attachments/assets/9b870671-3854-444f-893d-40fdce31a629
 
 Try it now: [Enigma Machine Simulation](https://wokwi.com/projects/449104127751150593)
 
-### Cursed-Luna (WASM Remake)
+### Cursed-Luna
+A high-performance remake showcasing tight gameplay mechanics and efficient state management.
+
 https://github.com/user-attachments/assets/3647b5b6-fbfd-4281-af0f-f35f3260a319
 
 Play it now: [Cursed-Luna on Itch.io](https://edbcrepo.itch.io/cursed-luna)
 
-### Duck Hunt VR (WASM Edition)
+### Duck Hunt VR
+Low-latency VR natively in the browser. Low-level C++ performance meeting modern Web APIs.
+
 https://github.com/user-attachments/assets/ab26287e-bd73-4ee8-941b-d97382e203c9
 
 Play it now: [Duck Hunt VR on Itch.io](https://edbcrepo.itch.io/duck-hunt-vr)
 
-## Ecosystem
+## One Codebase, Every Screen
+Nodepp is the only framework that lets you share logic between the deepest embedded layers and the highest web layers.
 
-Whether you are building a real-time game, a secure network server, or a DIY hardware project, Nodepp is your trusted companion:
+- **Hardware:** [NodePP for Arduino](https://github.com/NodeppOfficial/nodepp-arduino)
+- **Desktop:** [Nodepp for Desktop](https://github.com/NodeppOfficial/nodepp)
+- **Browser:** [Nodepp for WASM](https://github.com/NodeppOfficial/nodepp-wasm)
 
-- 📌: **Nodepp Core:** The heart of the async framework.
-- 📌: **Nodepp-Arduino:** Async power for microcontrollers.
-- 📌: **Nodepp-WASM:** High-performance C++ in the browser.
+## Contributing
 
-The Nodepp Project is here to transform your coding experience. Embrace the future of programming, unlock your full potential, and join a community that is setting the projects of tomorrow in motion today.
+The Nodepp Project is an open-source research effort into deterministic, unified systems. Whether you are a frontend wizard or a backend guru, your contribution helps set the projects of tomorrow in motion.
 
-**Get ready to code like never before!** 🫠
-
-# Contribution
-
-If you want to contribute to Nodepp, you are welcome to do so! You can contribute in several ways:
-
-    ☕ Buying me a Coffee
-    📢 Reporting bugs and issues
-    📝 Improving the documentation
-    📌 Adding new features or improving existing ones
-    🧪 Writing tests and ensuring compatibility with different platforms
-    🔍 Before submitting a pull request, make sure to read the contribution guidelines.
-
+- **Sponsorship:** Support the project via [Ko-fi](https://ko-fi.com/edbc_repo).
+- **Bug Reports:** Open an issue via GitHub.
+- **License:** MIT.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/edbc_repo)
 
-# License
-Nodepp is distributed under the MIT License. See the LICENSE file for more details.
+## License
+**Nodepp** is distributed under the MIT License. See the LICENSE file for more details.
